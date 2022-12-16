@@ -1,0 +1,12 @@
+<library path="rviz_footprint_plugins">
+  <class
+    name="rviz_footprint_plugins/PolygonArray"
+    type="rviz_footprint_plugins::displays::PolygonArrayDisplay"
+    base_class_type="rviz_common::Display"
+  >
+    <description>
+      Displays data from a trav_msgs::PolygonArray message as lines.
+    </description>
+    <message_type>trav_msgs/msg/PolygonArray</message_type>
+  </class>
+</library>
